@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="phamgiathinh.project.englishapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <!--<activity-->
+            <!--android:label="VocabularyDetail"-->
+            <!--android:name=".VocabularyDetailActivity">-->
+            <!--<intent-filter>-->
+                <!--<category android:name="android.intent.category.LAUNCHER">-->
+                <!--</category>-->
+                <!--<action android:name="android.intent.action.MAIN"></action>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <activity
+            android:label="Exam"
+            android:name=".ExamActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER">
+                </category>
+                <action android:name="android.intent.action.MAIN"></action>
+            </intent-filter>
+        </activity>
+
+        <!--<activity-->
+            <!--android:label="Grammar"-->
+            <!--android:name=".GrammarActivity">-->
+            <!--<intent-filter>-->
+                <!--<category android:name="android.intent.category.LAUNCHER">-->
+                <!--</category>-->
+                <!--<action android:name="android.intent.action.MAIN"></action>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+    </application>
+</manifest>
